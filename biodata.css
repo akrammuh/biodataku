@@ -1,0 +1,84 @@
+h1{
+    text-align: center;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.foto{
+    padding: 10px;
+}
+
+.text{
+    width: 95%;
+    background: yellow;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 5px;
+}
+.fotoo{
+    width: 120px;
+    height: 140px;
+    border: 3px solid gray;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.dari, .dataortu{
+    padding: 10px;
+    
+}
+
+.input-datadiri{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 5px;
+}
+
+input{
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: aqua;
+    float: left;
+    width: calc(100% - 150px);
+}
+
+.bpkibu{
+    font-weight: bold;
+    color: blue; 
+}
+
+.simpan{
+    width: 80px;
+    background: blue;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+form {
+    overflow: hidden;
+}
+ 
+label {
+    float: left;
+    width: 150px;
+    padding-right: 24px;
+}
+ 
+input {
+    float: left;
+    width: calc(100% - 150px);
+}
+
+img{
+    width:120px;
+    height:130px;
+}
